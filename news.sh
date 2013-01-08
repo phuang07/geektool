@@ -1,6 +1,6 @@
 #!/bin/sh
-
-URL="http://www.rememberthemilk.com/atom/leoman730/8549216/"
+# example: ./news.sh -4 // echo 4 articles 
+URL="http://blog.webplatform.org/feed/"
 
 if [ $# -eq 1 ] ; then
   headarg=$(( $1 * 2 ))
